@@ -100,7 +100,7 @@ body {
   font-size: 1rem;
   font-weight: 300;
   text-align: left;
-  color: hsla(215, 51%, 70%, 0.6)
+  color: var(--soft-blue);
 }
 
 .description-container {
@@ -148,7 +148,7 @@ body {
 }
 
 .border {
-  background-color: hsl(215, 32%, 27%);;
+  background-color: hsl(215, 32%, 27%);
   width: 100%;
   margin-top: 1rem;
   border: none;
@@ -166,8 +166,8 @@ body {
 
 .profile-container {
   border-radius: 50%;
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 1.75rem;
+  width: 1.75rem;
   border: white solid 1px;
   margin-right: .7rem;
   cursor: pointer;
@@ -178,14 +178,14 @@ body {
 }
 
 .profile {
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 1.75rem;
+  width: 1.75rem;
 }
 
 .creator {
-  color: hsla(215, 51%, 70%, 0.6);
+  color: var(--soft-blue);
 
-  font-size: .8rem;
+  font-size: .9rem;
 }
 
 .name {
